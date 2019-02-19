@@ -5,7 +5,7 @@ This describes how the run_analysis.R script works and includes a code book desc
 The script does the following.
 ## Reads
 * Reads the measurement data used for the test and training data sets from "./UCI HAR Dataset/test/X_test.txt" and "./UCI HAR Dataset/train/X_train.txt", respectively.
-* Reads the activity labels for the test and training data sets from "./UCI HAR Dataset/test/y_test.txt" and "./UCI HAR Dataset/train/y_train.txt". Thi
+* Reads the activity labels for the test and training data sets from "./UCI HAR Dataset/test/y_test.txt" and "./UCI HAR Dataset/train/y_train.txt".
 * Reads the Subject data which identifies the subject who performed the activity in each of row of the test and training data. These were read from "./UCI HAR Dataset/test/subject_test.txt" and  "./UCI HAR Dataset/train/subject_train.txt".
 * Reads the activity names that maps the integers used as activity labels to names. Some text processing to remove the was done to extract just the names. The activity names were read from "./UCI HAR Dataset/activity_labels.txt".
 * Reads the "features" which correspond to the variable names for the test and training data sets previously read. The features were read from  "./UCI HAR Dataset/features.txt".
